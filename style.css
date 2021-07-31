@@ -1,0 +1,97 @@
+body {
+  background-color: #FFFAF0;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h2{
+  color: black;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h3{
+  front-size: 25px;
+}
+
+h4 {
+  color: #B22222;
+    
+}
+
+h6 {
+  padding-left: 4em;
+}
+
+li {
+  font-family: 'Courier New', monospace; 
+}
+
+#img{
+  float: right;
+  width: 30%;
+  padding: 2em;
+  padding-top:0;
+}
+
+.rightHead {
+  text-align: right;
+}
+
+.header {
+  border: 2px solid black;
+  background: #E0FFFF;
+  padding: 20px;
+}
+
+.footer {
+  background: #E0FFFF;
+}
+
+/* Grid styling */
+.wrapper{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  background:#E0FFFF;
+  padding:1em;
+}
+
+.buttonClass{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2em;
+  gap:.5em;
+}
+
+/* interactive classes */
+.showJobDescription{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 2em;
+padding: 2em;
+padding-top: 0;
+}
+
+.showAboutDescription{
+  text-align: center;
+  font-family: 'Courier New', monospace; 
+  padding: 4em;
+  padding-bottom: 2em;
+  padding-top: 0;
+}
+
+.hiddenAboutDescription{
+  display:none;
+}
+
+.hiddenJobDescription{
+  display:none;
+}
