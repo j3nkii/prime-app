@@ -29,6 +29,8 @@ h4 {
 
 h6 {
   padding-left: 4em;
+  padiding-right: 4em;
+  font-size: 17px;
 }
 
 li {
@@ -40,6 +42,7 @@ li {
   width: 30%;
   padding: 2em;
   padding-top:0;
+
 }
 
 .rightHead {
@@ -47,13 +50,21 @@ li {
 }
 
 .header {
-  border: 2px solid black;
   background: #E0FFFF;
   padding: 20px;
 }
 
 .footer {
   background: #E0FFFF;
+}
+
+#gitIcon{
+  position: relative;
+  top: 3px;
+  height: 19px;
+  width: 19px;
+  alignt-content: left;
+  padding-left: 1em;
 }
 
 /* Grid styling */
